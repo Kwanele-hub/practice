@@ -1,5 +1,5 @@
 const sortInOrder = (str) => {
-    let newStr = str.split('')
+    let newStr = str.split(' ')
 return newStr.sort()
 }
 
