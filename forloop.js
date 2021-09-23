@@ -7,3 +7,4 @@
     }
     return sum / array.length;
 }
+console.log(average(sum))

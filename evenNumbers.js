@@ -1,0 +1,17 @@
+var nums = [1,2,3,4,5,6,7,8,9,10];
+var evens = [];
+
+
+var evenNumbers = function(nums) {
+    for (var i = 0; i < nums.length; i++) {
+
+        if ((nums[i] % 2) != 0) {
+            evens.push(nums[i]);
+                console.log(evens);
+        }
+       
+    }
+
+};
+
+evenNumbers(nums)

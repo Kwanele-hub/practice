@@ -22,13 +22,13 @@
   //   return array.filter(num=> num >= 0);
   // }
 var myArray = [4, -5, 0, 2, -67, 8, 10, -34];
-var positiveArr = [];
+var positiveNum = [];
  myArray.forEach(function(num) {
   if (num < 0) {
     return num
   } else {
-    positiveArr.push(num)
+    positiveNum.push(num)
   }
 });
 
-console.log(positiveArr)
+console.log(positiveNum)
